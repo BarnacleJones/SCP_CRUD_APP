@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(107, 106, 106);
+    background-image: url(./images/scp-logo.svg);    
+    background-size:contain;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 100vw; 
+    font-family: 'Nanum Gothic Coding', monospace; 
+}
+
+
+
+/* Stylings for nav menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #333;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #logoSVG{
+      width: 50px;
+  }
+  
+
+  /* stylings for scp containers */
+
+  .scpContainer{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 70vw;
+      word-break: break-word;
+      background-color: rgb(137, 137, 137);
+      color: black;      
+      border-radius: 5px;
+      padding: 3rem;
+      margin: 2rem;
+      opacity: 0.9;
+      border: 2px solid black;
+  }
+
+  .scpContainer > .buttonStyle, .buttonStyle{
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    opacity: 1;
+    transition-duration: 0.4s;
+  }
+
+  .buttonStyle:hover{
+    background-color: rgb(137, 137, 137);
+  }
+
+  #scpImage{
+      width: 50%;      
+  }
+
+  /* styling for main area - separate from body due to background image */
+  .mainArea{
+    display: flex;
+    /* width: 95vw; */
+    align-items: center;    
+    flex-direction: column;
+    background-color: rgb(107, 106, 106);
+    opacity: 0.95;    
+  }
+
+  #homeLink:visited{
+      color: black;
+  }
+
+  #homeLink{
+    color: black;
+}
+
+/* Get form to be hidden from start */
+#form{
+  display: none;
+  align-self: center;
+  display: flex;
+  align-items: center;    
+  flex-direction: column;
+  margin: auto;
+}
+
+#mainAreaID{
+  display: flex;
+  align-items: center;    
+  flex-direction: column;
+  width: 95vw;
+  height: 95vh;
+}
+
+
+/* Button styling */
+
+button, .formButton{
+  background-color: #333; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  opacity: 1;
+  transition-duration: 0.4s;
+}
+
+button:hover, .formButton:hover{
+  background-color: rgb(137, 137, 137);
+}
