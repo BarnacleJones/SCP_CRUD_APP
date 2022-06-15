@@ -1,9 +1,9 @@
 <?php
 
     // Database credentials
-    $user = 'a30056470_user';
-    $pw = '6uSKQgn5tMm8nzv';
-    $db = 'a30056470_SCP_Files';
+    $user = 'PRIVATE INFO';
+    $pw = 'YOU WISH';
+    $db = 'NAH';
     
     //Database connection
     $connection = new mysqli('localhost', $user, $pw, $db);
